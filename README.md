@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# GPS Recorder App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native Expo application that allows users to record and manage GPS coordinates. Users can add their current GPS location, view a list of recorded coordinates, and delete any that are no longer needed. The coordinates are persisted locally so they remain available even after the app is closed and reopened.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Add GPS coordinates with the press of a button.
+- View a list of recorded coordinates with latitude and longitude.
+- Delete any recorded coordinates.
+- Persistent storage to ensure coordinates are saved and available after reopening the app.
 
-   ```bash
-   npm install
-   ```
+## Setup Instructions
 
-2. Start the app
+Follow these steps to get the project up and running on your local machine.
 
-   ```bash
-    npx expo start
-   ```
+### Prerequisites
 
-In the output, you'll find options to open the app in a
+- Node.js (recommended version: 18.x or higher)
+- Expo CLI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Install Dependencies
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. **Clone the Repository**
 
 ```bash
-npm run reset-project
+   git clone https://github.com/rajnishtrikaldarshi/GPSRecorderApp.git
+   cd GPSRecorderApp
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
